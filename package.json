@@ -1,0 +1,25 @@
+{
+  "name": "long",
+  "version": "1.0.0",
+  "description": "backend_learn_zero",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NguyenDucLongcode/backend_learn_zero"
+  },
+  "keywords": [
+    "node",
+    "sever.js"
+  ],
+  "author": "long",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
