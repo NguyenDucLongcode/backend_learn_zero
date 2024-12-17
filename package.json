@@ -5,7 +5,7 @@
   "main": "sever.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/sever.js"
+    "start": "nodemon ./src/sever.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9"
   }
 }
